@@ -26,7 +26,7 @@
       <header class="header">
         <p class="header-logo">
           <a href="index.html" class="header-logo link"
-            ><span class="header-web">Web </span>Studio</a
+            ><span style="color: #2196f3"> Web</span>Studio</a
           >
         </p>
         <!--навигация на страницы-->
@@ -34,7 +34,7 @@
           <nav class="header-nav">
             <ul class="header-list list">
               <li class="header-item">
-                <a href="./index.html" class="header-link-current link"
+                <a href="./index.html" class="header-link current link"
                   >Студия
                 </a>
               </li>
@@ -52,13 +52,15 @@
           </nav>
         </div>
         <ul>
-          <li class="header-item list">
-            <a href="mailto:info@devstudio.com" class="header-mail"
+          <li class="contact-item list">
+            <a href="mailto:info@devstudio.com" class="contact-mail link"
               >info@devstudio.com
             </a>
           </li>
-          <li class="header-item list">
-            <a href="tel:+380991111111" class="header-tel">+38 099 111 11 11</a>
+          <li class="contact-item list">
+            <a href="tel:+380991111111" class="contact-tel link"
+              >+38 099 111 11 11</a
+            >
           </li>
         </ul>
       </header>
@@ -106,43 +108,51 @@
         </ul>
       </section>
       <section class="hero-skills">
-        <h2 class="hero-skills-title title">Чем мы занимаемся</h2>
-        <ul class="hero-list list">
-          <li><img src="./images/img1.jpg" alt="верстка" width="370" /></li>
-          <li>
-            <img
-              src="./images/img2.jpg"
-              alt="мобильное приложение"
-              width="370"
-            />
-          </li>
-          <li><img src="./images/img3.jpg" alt="дизайн" width="370" /></li>
-        </ul>
+        <div class="container">
+          <h2 class="hero-skills-title title">Чем мы занимаемся</h2>
+          <ul class="hero-skills-list list">
+            <li class="hero-skills-item">
+              <img src="./images/img1.jpg" alt="верстка" width="370" />
+            </li>
+            <li class="hero-skills-item">
+              <img
+                src="./images/img2.jpg"
+                alt="мобильное приложение"
+                width="370"
+              />
+            </li>
+            <li class="hero-skills-item">
+              <img src="./images/img3.jpg" alt="дизайн" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section id="about" class="about">
-        <h2 class="about-title">Наша команда</h2>
-        <ul class="about-list list">
-          <li class="about-item">
-            <img src="./images/img4.jpg" alt="подукт дизайнер" width="270" />
-            <h3 class="about-title-top title">Игорь Демьяненко</h3>
-            <p lang="en" class="about-text-top text">Product Designer</p>
-          </li>
-          <li class="about-item">
-            <img src="./images/img5.jpg" alt="разработчик" width="270" />
-            <h3 class="about-title-botton title">Ольга Репина</h3>
-            <p lang="en" class="about-text-botton text">Frontend Developer</p>
-          </li>
-          <li class="about-item">
-            <img src="./images/img6.jpg" alt="маркетинг" width="270" />
-            <h3 class="about-title-mark title">Николай Тарасов</h3>
-            <p lang="en" class="about-text-mark text">Marketing</p>
-          </li>
-          <li class="about-item">
-            <img src="./images/img7.jpg" alt="дизайнер" width="270" />
-            <h3 class="about-title-des title">Михаил Ермаков</h3>
-            <p lang="en" class="about-text-des text">UI Designer</p>
-          </li>
-        </ul>
+      <section class="about">
+        <div class="container">
+          <h2 class="about-title">Наша команда</h2>
+          <ul class="about-list list">
+            <li class="about-item">
+              <img src="./images/img4.jpg" alt="подукт дизайнер" width="270" />
+              <h3 class="about-title-top title">Игорь Демьяненко</h3>
+              <p lang="en" class="about-text-top text">Product Designer</p>
+            </li>
+            <li class="about-item">
+              <img src="./images/img5.jpg" alt="разработчик" width="270" />
+              <h3 class="about-title-botton title">Ольга Репина</h3>
+              <p lang="en" class="about-text-botton text">Frontend Developer</p>
+            </li>
+            <li class="about-item">
+              <img src="./images/img6.jpg" alt="маркетинг" width="270" />
+              <h3 class="about-title-mark title">Николай Тарасов</h3>
+              <p lang="en" class="about-text-mark text">Marketing</p>
+            </li>
+            <li class="about-item">
+              <img src="./images/img7.jpg" alt="дизайнер" width="270" />
+              <h3 class="about-title-des title">Михаил Ермаков</h3>
+              <p lang="en" class="about-text-des text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
