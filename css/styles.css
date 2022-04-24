@@ -337,15 +337,11 @@ img {
 
 .hero-skills-list {
   display: flex;
+  gap: 30px;
 }
 
 .hero-skills-item {
   display: block;
-  margin-right: 30px;
-}
-
-.hero-skills-item:last-child {
-  margin: 0;
 }
 
 /*-------- about------- */
@@ -540,9 +536,7 @@ img {
   margin-right: 8px;
 }
 
-.main-item:last-child {
-  margin-right: 0;
-}
+/*--------- fillter --------*/
 
 .main-button {
   font-weight: 500;
@@ -566,6 +560,8 @@ img {
   margin-right: auto;
 }
 
+/*------gallery------*/
+
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
@@ -580,6 +576,7 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-top: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .gallery-cards {
